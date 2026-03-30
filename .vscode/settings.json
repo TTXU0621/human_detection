@@ -1,0 +1,20 @@
+{
+  "C_Cpp.intelliSenseEngine": "default",
+  "idf.espIdfPathWin": "e:\\Embedded\\esp32\\ESP-IDF\\v5.4.3\\esp-idf",
+  "idf.pythonInstallPath": "e:\\Embedded\\esp32\\tools\\.espressif\\tools\\idf-python\\3.11.2\\python.exe",
+  "idf.openOcdConfigs": [
+    "board/esp32s3-builtin.cfg"
+  ],
+  "idf.toolsPathWin": "e:\\Embedded\\esp32\\tools\\.espressif",
+  "idf.customExtraVars": {
+    "IDF_TARGET": "esp32s3"
+  },
+  "clangd.path": "e:\\Embedded\\esp32\\tools\\.espressif\\tools\\esp-clang\\esp-18.1.2_20240912\\esp-clang\\bin\\clangd.exe",
+  "clangd.arguments": [
+    "--background-index",
+    "--query-driver=**",
+    "--compile-commands-dir=e:\\I&E Project\\esp32s3\\human_detection\\build"
+  ],
+  "idf.portWin": "COM3",
+  "idf.flashType": "UART"
+}
