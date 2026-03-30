@@ -35,7 +35,7 @@ void app_main(void)
         if(len > 0) {
             ESP_LOGI(TAG, "✅ 有人！！！！！");
         } else {
-            ESP_LOGW(TAG, "❌ 无人");
+            ESP_LOGW(TAG, "无人");
         }
     }
 }
