@@ -33,7 +33,7 @@ void app_main(void)
     while(1) {
         int len = uart_read_bytes(UART_NUM, buf, 128, pdMS_TO_TICKS(300));
         if(len > 0) {
-            ESP_LOGI(TAG, "✅ 有人！！！！！");
+            ESP_LOGI(TAG, " 有人！！！！！");
         } else {
             ESP_LOGW(TAG, "无人");
         }
